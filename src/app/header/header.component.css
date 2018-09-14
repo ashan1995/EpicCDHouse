@@ -1,0 +1,32 @@
+.heading{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+
+.bus{
+    width: 50%;
+    height: 50%;
+    
+}
+.logoHolder{
+    text-align: center;
+}
+
+.headerHolder{
+    background-image:linear-gradient(rgba(255, 0, 0, 0.8),rgba(0, 0, 0, 0));
+}
+nav{
+    text-align: center;
+}
+nav li{
+    margin: 0 1% 0 1%;
+    border: 2px solid black;
+    padding: 5px 5px 5px 5px;
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
+}

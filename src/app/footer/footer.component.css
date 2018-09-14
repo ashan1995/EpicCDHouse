@@ -1,0 +1,19 @@
+.custom-container{
+    background-color: black;
+    color: white;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+}
+
+.footer-item{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.footer-item:hover{
+    color:yellow;
+}
