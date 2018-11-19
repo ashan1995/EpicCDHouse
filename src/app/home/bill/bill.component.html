@@ -1,0 +1,60 @@
+
+<div class="container">
+<div class="panel panel-danger panel-login">
+  <div class="panel-heading">
+    <h3 class="panel-title">Create Bill</h3>
+  </div>
+  <div class="panel-body">
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label for="customername" class="col-sm-2 control-label">Customer name</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="customername" placeholder="Customer name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-2 control-label">Select items</label>
+      </div>
+     <div class="item-list">
+        <app-item-list></app-item-list>
+     </div>
+
+     <div class="form-group">
+      <label class="col-sm-2 control-label">Item list</label>
+    </div>
+     <div class="cart">
+      <div class="row">
+        <div class="col-md-2">
+          <a href="#">
+            <img class="media-object" src="https://i.kinja-img.com/gawker-media/image/upload/s--u9f8-0yY--/c_scale,f_auto,fl_progressive,q_80,w_800/c9lzmv4d3mgzpnyntz7s.jpg" alt="...">
+          </a>
+        </div>
+        <div class="col-md-10">
+            <div class="col-md-8">
+                <h4 class="media-heading">Game of Thrones</h4>
+                Rs.500 <br>
+                Description about the movie goes here...
+            </div>
+           <div class="col-md-4">
+             <button class="btn btn-danger">Remove</button>
+           </div>
+        </div>
+        <hr>
+      </div>
+     </div>
+
+
+     <div class="form-group">
+      <label class="col-sm-2 control-label">Price</label>
+    </div>
+
+      
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-primary">Create</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+</div>

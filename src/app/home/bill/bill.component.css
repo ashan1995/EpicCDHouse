@@ -1,0 +1,25 @@
+.item-list{
+   overflow-x: hidden;
+   overflow-y: scroll;
+    height: 250px;
+    border: 1px solid red;
+    border-radius: 5px;
+  
+}
+
+.cart{
+    margin-top: 10px;
+    overflow-x: hidden;
+   overflow-y: scroll;
+    height: 250px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+
+img{
+    height: 100px;
+    width: 150px;
+}
